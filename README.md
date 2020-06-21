@@ -6,7 +6,7 @@ From [belog.flo.cx](https://blog.flo.cx/2018/08/ikea-diy-smart-smoke-detector/).
 
 Using pin 7 from the processer that is normally floating and deliviering 9V in alarm state its a very good thing.  
 
-Xiaomi MCCGQ11LM Aqara door & window contact sensor have a good formfactor and easy to desammbling and aroun 20€ in stors in EU.  
+Xiaomi MCCGQ11LM Aqara door & window contact sensor have a good formfactor and easy to desammbling and aroun 20€ in stores in EU.  
 
 Its have 2 connection point between the detector ement and the antenna marked GND and DI+ [(Photo)](https://fccid.io/2AKIT-MCCGQ11LM/Internal-Photos/Internal-Photos-3246095).  
 Its input have very high impedance so was testing with 1 Meg Ohm resistor and its detecting contact closed.  
