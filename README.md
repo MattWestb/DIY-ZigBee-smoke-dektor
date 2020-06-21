@@ -11,8 +11,8 @@ Xiaomi MCCGQ11LM Aqara door & window contact sensor have a good formfactor and e
 Its have 2 connection point between the detector ement and the antenna marked GND and DI+ [(Photo)](https://fccid.io/2AKIT-MCCGQ11LM/Internal-Photos/Internal-Photos-3246095).  
 Its input have very high impedance so was testing with 1 Meg Ohm resistor and its detecting contact closed.  
 The smoke detector delivering 9V in alarm state and we need have it to being around 3V. = 1/3.  
-So putting one 4 Meg Ohm in serie with pin 7 to DI+ and one around 1 Meg Ohm between DI+ and GND and one wire from GND to the smokedetector GND /  - Battery.  
-Then the smoke detector is in normal state (pin 7 its floating) its only 1 Meg Ohm between D1+ and GND = contact closed, in alarm state (9V from pin 7) 9V its going thrue the resistors (4M + 1M) to ground and the ID+ get around 3V = cotact its open. 
+So putting one 3 Meg Ohm in serie with pin 7 to DI+ and one around 1 Meg Ohm between DI+ and GND and one wire from GND to the smokedetector GND /  - Battery.  
+Then the smoke detector is in normal state (pin 7 its floating) its only 1 Meg Ohm between D1+ and GND = contact closed, in alarm state (9V from pin 7) 9V its going thrue the resistors (3M + 1M) to ground and the ID+ get around 3V = cotact its open. 
 
 Its not so easy soldring on the small pads for the D1+ and GND and its microcomponents near so one alternativ its soldring on or desoldring the detctor element and soldring on its pads that its larger and near the PCB boarder. Taking the D1+ and GND there its the easyest way but must mesuring where side its D1+ and GND or you getting -3V in the ZigBee chip.  
 
