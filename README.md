@@ -16,7 +16,7 @@ Then the smoke detector is in normal state (pin 7 its floating) its only 1 Meg O
 
 Its not so easy soldring on the small pads for the D1+ and GND and its microcomponents near so one alternativ its soldring on or desoldring the detctor element and soldring on its pads that its larger and near the PCB boarder. Taking the D1+ and GND there its the easyest way but must mesuring where side its D1+ and GND or you getting -3V in the ZigBee chip.  
 
-If  having enugh place in the smok detector its only putting it back in the case or only the lower part with the protection for the batery.
+If  having enugh space in the smok detector its only putting it back in the case or only the lower part with the protection for the batery.
 If not only wrapping it with somthing protecting tape and putting it inside the smoke detector.  
 Dont forget not covering the battery to good then its needs being changed time 2 time.  
 
